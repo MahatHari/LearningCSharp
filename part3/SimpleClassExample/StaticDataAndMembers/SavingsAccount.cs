@@ -8,7 +8,7 @@ namespace StaticDataAndMembers
         public double currBalance;
 
         // A static point of data
-        public static double currInterestRate;
+        public static double _currInterestRate;
 
         public SavingsAccount(double balance)
         {
@@ -19,18 +19,26 @@ namespace StaticDataAndMembers
         static SavingsAccount()
         {
             Console.WriteLine("In static constructor");
-            currInterestRate = 0.04;
+            _currInterestRate = 0.04;
         }
 
-        //static methods(members) to get/set interes Rate
+
+         public static double InterestRate
+        {
+            get => _currInterestRate;
+            set => _currInterestRate = value;
+        }
+        //static methods(members) to get/set interes Rate the above does
+        // exactly the same but in one func
+        /*
         public static void SetInterestRate(double newRate)
         {
-            currInterestRate = newRate;
+            _currInterestRate = newRate;
         }
 
         public static double GetInterestRate()
-            => currInterestRate;
-
+            => _currInterestRate;
+        */
        
 
     }

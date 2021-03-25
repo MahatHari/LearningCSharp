@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "Sta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeApp", "EmployeeApp\EmployeeApp.csproj", "{4F72CCC0-F590-423A-99F4-F713BAE38D97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "AutoProps\AutoProps.csproj", "{ED5F91D6-648E-47D2-839E-2D76B778F21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -27,6 +31,14 @@ Global
 		{4F72CCC0-F590-423A-99F4-F713BAE38D97}.Debug|anycpu.Build.0 = Debug|anycpu
 		{4F72CCC0-F590-423A-99F4-F713BAE38D97}.Release|anycpu.ActiveCfg = Release|anycpu
 		{4F72CCC0-F590-423A-99F4-F713BAE38D97}.Release|anycpu.Build.0 = Release|anycpu
+		{ED5F91D6-648E-47D2-839E-2D76B778F21B}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{ED5F91D6-648E-47D2-839E-2D76B778F21B}.Debug|anycpu.Build.0 = Debug|anycpu
+		{ED5F91D6-648E-47D2-839E-2D76B778F21B}.Release|anycpu.ActiveCfg = Release|anycpu
+		{ED5F91D6-648E-47D2-839E-2D76B778F21B}.Release|anycpu.Build.0 = Release|anycpu
+		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

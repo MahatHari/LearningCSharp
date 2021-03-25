@@ -55,6 +55,13 @@ namespace SimpleClassExample
                 inDanger = false;
             }
         }
-       
+
+        // The above can be done in following manner
+        // Automatic Properties ! No need to define backing fields
+        /*
+         * Public string PetName{get; set;}
+         * Public string Speed{get; set;}
+         * Public string Color{get; set;}
+         */
     }
 }

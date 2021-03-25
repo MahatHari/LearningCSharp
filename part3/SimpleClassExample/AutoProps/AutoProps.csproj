@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{4F72CCC0-F590-423A-99F4-F713BAE38D97}</ProjectGuid>
+    <ProjectGuid>{ED5F91D6-648E-47D2-839E-2D76B778F21B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EmployeeApp</RootNamespace>
-    <AssemblyName>EmployeeApp</AssemblyName>
+    <RootNamespace>AutoProps</RootNamespace>
+    <AssemblyName>AutoProps</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -19,7 +19,6 @@
     <WarningLevel>4</WarningLevel>
     <ExternalConsole>true</ExternalConsole>
     <IntermediateOutputPath>obj\anycpu\Debug</IntermediateOutputPath>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
     <Optimize>true</Optimize>
@@ -28,7 +27,6 @@
     <WarningLevel>4</WarningLevel>
     <ExternalConsole>true</ExternalConsole>
     <IntermediateOutputPath>obj\anycpu\Release</IntermediateOutputPath>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -36,9 +34,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="UpdatedEmployee.cs" />
-    <Compile Include="UpdateEmployee2.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Garage.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

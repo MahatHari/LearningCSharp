@@ -33,6 +33,7 @@ namespace EmployeeApp
 
         // Short hand Property, 
         public float Pay { get => _currPay; set => _currPay = value; }
+        public void GiveBonus(float amount) => _currPay += amount;
 
         public int Age { get => _empAge; set => _empAge = value; }
 
