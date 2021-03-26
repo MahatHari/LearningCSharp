@@ -33,6 +33,21 @@ namespace ObjectInitializers
             Point exPoint = new Point(){X = firstPoint.Y,Y = anotherPoint.X};
             exPoint.DisplayStats();
 
+
+            // Calling more interesting constructor with color
+            Point goldPoint = new Point(PointColor.Gold) { X = 90, Y = 70 };
+            goldPoint.DisplayStats();
+
+            // Using Object initialization syntax
+            // creating new Rectangle Variable and set the inner Points
+
+            Rectangle myRect = new Rectangle
+            {
+                TopLeft = new Point { X = 10, Y = 50 },
+                BottomRight = new Point { X = 20, Y = 30 }
+            };
+
+            myRect.DisplayStats();
         }
     }
 }

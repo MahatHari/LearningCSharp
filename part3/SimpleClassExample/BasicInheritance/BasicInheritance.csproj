@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}</ProjectGuid>
+    <ProjectGuid>{68F64618-65A0-4F74-AE00-EBC5C60E267A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ObjectInitializers</RootNamespace>
-    <AssemblyName>ObjectInitializers</AssemblyName>
+    <RootNamespace>BasicInheritance</RootNamespace>
+    <AssemblyName>BasicInheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -34,8 +34,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Point.cs" />
-    <Compile Include="Rectangle.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="MiniVan.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

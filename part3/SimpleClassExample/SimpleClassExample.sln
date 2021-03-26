@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProps", "AutoProps\Auto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "ObjectInitializers\ObjectInitializers.csproj", "{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{68F64618-65A0-4F74-AE00-EBC5C60E267A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -39,6 +41,10 @@ Global
 		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Debug|anycpu.Build.0 = Debug|anycpu
 		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Release|anycpu.ActiveCfg = Release|anycpu
 		{8C3BD3B5-AEAB-4709-A8E3-AA1EA8C8FEE3}.Release|anycpu.Build.0 = Release|anycpu
+		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
