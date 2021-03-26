@@ -1,10 +1,22 @@
 ﻿using System;
 namespace Shapes
 {
-    public class EmptyClass
+    public abstract class Shape
     {
-        public EmptyClass()
+        // properties
+        public string PetName { get; set; }
+        
+
+        // Constructor
+        protected Shape(string name= "NoName")
         {
+            PetName = name;
         }
+
+        // Methods
+        // Force all chile classes to define how to be rendered
+        public abstract void Draw();
+        
+       
     }
 }

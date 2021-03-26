@@ -1,7 +1,9 @@
 ﻿using System;
 namespace Employees
 {
-    public partial class Employee
+    // Employee class as abstract
+    // to prevent direct instantiation
+   public abstract partial class Employee
     {
         //Field Data
         //Protected members are named Pasacal-Cased
