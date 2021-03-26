@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "Objec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicInheritance\BasicInheritance.csproj", "{68F64618-65A0-4F74-AE00-EBC5C60E267A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employee\Employees.csproj", "{29892DB6-AC1B-4438-A153-DDEC93FE6F23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -45,6 +47,10 @@ Global
 		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Debug|anycpu.Build.0 = Debug|anycpu
 		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Release|anycpu.ActiveCfg = Release|anycpu
 		{68F64618-65A0-4F74-AE00-EBC5C60E267A}.Release|anycpu.Build.0 = Release|anycpu
+		{29892DB6-AC1B-4438-A153-DDEC93FE6F23}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{29892DB6-AC1B-4438-A153-DDEC93FE6F23}.Debug|anycpu.Build.0 = Debug|anycpu
+		{29892DB6-AC1B-4438-A153-DDEC93FE6F23}.Release|anycpu.ActiveCfg = Release|anycpu
+		{29892DB6-AC1B-4438-A153-DDEC93FE6F23}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
