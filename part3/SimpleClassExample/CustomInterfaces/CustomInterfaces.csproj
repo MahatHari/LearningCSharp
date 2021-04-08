@@ -19,6 +19,7 @@
     <WarningLevel>4</WarningLevel>
     <ExternalConsole>true</ExternalConsole>
     <IntermediateOutputPath>obj\anycpu\Debug</IntermediateOutputPath>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
     <Optimize>true</Optimize>
@@ -27,6 +28,7 @@
     <WarningLevel>4</WarningLevel>
     <ExternalConsole>true</ExternalConsole>
     <IntermediateOutputPath>obj\anycpu\Release</IntermediateOutputPath>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -34,6 +36,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CloneableType.cs" />
+    <Compile Include="ThreeDCircle.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Hexagon.cs" />
+    <Compile Include="IPointy.cs" />
+    <Compile Include="Traiangle.cs" />
+    <Compile Include="IRegularPointy.cs" />
+    <Compile Include="Square.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
